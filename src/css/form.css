@@ -1,4 +1,4 @@
-/* body {
+body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   background-color: #f4f4f4;
@@ -10,7 +10,7 @@
   flex-direction: column;
   align-items: center;
   padding: 40px 20px;
-} */
+}
 
 .feedback-form {
   display: flex;
@@ -18,22 +18,24 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 16px;
+  margin-top: 24px;
 
-  width: 408px;
-  height: 296px;
+  /* width: 408px; */
+  /* height: 296px; */
   padding: 24px;
   border-radius: 8px;
   background: #fff;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-.feedback-form label {
+label {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 360px;
   font-weight: 500;
   font-size: 14px;
   color: #333;
+  text-align: start;
 }
 
 .feedback-form input,

@@ -75,12 +75,12 @@ function createGallary(arr) {
   return arr
     .map(
       item => `
+      
     <li class="gallery-item">
   <a class="gallery-link" href="${item.original}">
     <img
       class="gallery-image"
       src="${item.preview}"
-      data-source="${item.original}"
       alt="${item.description}"
       />
   </a>
@@ -88,11 +88,6 @@ function createGallary(arr) {
     )
     .join('');
 }
-// const lightbox = new SimpleLightbox('.gallery a', {
-//   captionsData: 'alt',
-//   captionDelay: 250,
-// });
-// gallery.innerHTML = markup;
 
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
